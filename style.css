@@ -1,0 +1,71 @@
+body {
+
+
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+.logo{
+  font-size:2.5rem;
+  font-weight:bold;
+  font-family:"playfair Display",serif;
+  color: #695f07;
+}
+
+h1 {
+  font-size: 5rem;
+
+}
+
+.rescue{
+  color:rgb(18, 218, 28);
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  position:static;
+  bottom:30px;
+  text-align:center;
+}
+
+.drones{float:left;
+  /*width:45%;*//*allows for  images to be side by side*/
+  }
+
+.img1{
+  float:left;
+   margin-right:30px;
+  }
+
+.img2{float: right;
+}
+
+.team{float: right;
+    width :45%;}
+    .team> h2, h1{clear: left;
+  }
+
+.drones>h2,h1{
+  clear: right;  
+  }
+
+  @media(max-width:700px){
+    .img{
+      width:100%;
+  }
+
+    .team{width:100%;}
+    
+    h1{font-size:2rem;}
+    h2{font-size:1rem;}
+    p{font-size:0.75rem;}
+
+  }
